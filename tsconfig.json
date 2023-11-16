@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "core": ["core"],
+      "interfaces/*": ["interfaces/*"],
+      "l1_presentation/*": ["l1_presentation/*"],
+      "l2_presentation/*": ["l2_presentation/*"],
+      "l3_presentation/*": ["l3_presentation/*"]
+    }
+  }
+}
