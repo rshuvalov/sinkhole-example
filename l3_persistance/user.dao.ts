@@ -22,12 +22,6 @@ class UserDao {
       `INSERT INTO "users" VALUES (${user.id}, ${user.createdAt})`
     );
   }
-
-  update(user: IUser): IUser {
-    return this.dbClient.exec<IUser>(
-      `UPDATE "users" SET id = ${user.id}, createdAt = ${user.createdAt}`
-    );
-  }
 }
 
 export default UserDao;
